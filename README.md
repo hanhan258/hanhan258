@@ -5,6 +5,5 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/hanhan258/hanhan258/output/github-contribution-grid-snake.svg">
 </picture>
 
-![Visitor Count](https://profile-counter.glitch.me/hanhan258/count.svg)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hanhan258&layout=compact&theme=tokyonight)
