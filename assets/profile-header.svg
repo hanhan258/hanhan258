@@ -1,0 +1,70 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hanhan GitHub profile banner</title>
+  <desc id="desc">A dark gradient banner introducing Hanhan, an open-source developer.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="88" y1="20" x2="1114" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.52" stop-color="#101B35"/>
+      <stop offset="1" stop-color="#09111F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="246" y1="88" x2="822" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#65D8FF"/>
+      <stop offset="0.48" stop-color="#8B7CFF"/>
+      <stop offset="1" stop-color="#FF70B8"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientTransform="translate(1016 46) rotate(143.4) scale(352 292)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3584E4" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#3584E4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="0" cy="0" r="1" gradientTransform="translate(116 318) rotate(-30.5) scale(405 239)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" stroke="#DCE8FF" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="320" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#background)"/>
+    <rect width="1200" height="320" fill="url(#glowBlue)"/>
+    <rect width="1200" height="320" fill="url(#glowPurple)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+
+    <circle cx="1064" cy="72" r="86" fill="#65D8FF" fill-opacity=".08"/>
+    <circle cx="1064" cy="72" r="57" stroke="#65D8FF" stroke-opacity=".18"/>
+    <circle cx="1132" cy="246" r="118" fill="#8B7CFF" fill-opacity=".06"/>
+    <path d="M939 233C1010 181 1074 185 1144 111" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-opacity=".38"/>
+    <circle cx="939" cy="233" r="5" fill="#65D8FF"/>
+    <circle cx="1144" cy="111" r="5" fill="#FF70B8"/>
+
+    <g filter="url(#blur)" opacity=".44">
+      <ellipse cx="388" cy="106" rx="124" ry="18" fill="#65D8FF"/>
+    </g>
+
+    <g transform="translate(84 64)">
+      <rect width="164" height="34" rx="17" fill="#DCE8FF" fill-opacity=".08" stroke="#DCE8FF" stroke-opacity=".14"/>
+      <circle cx="19" cy="17" r="5" fill="#71E6A7"/>
+      <text x="34" y="22" fill="#C9D7EF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing=".8">OPEN TO IDEAS</text>
+
+      <text x="0" y="112" fill="#F4F7FF" font-family="Inter,Segoe UI,Microsoft YaHei,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-1.5">Hi, I'm Hanhan</text>
+      <rect x="0" y="132" width="548" height="5" rx="2.5" fill="url(#accent)"/>
+      <text x="0" y="178" fill="#AFC1DF" font-family="Inter,Segoe UI,Microsoft YaHei,Arial,sans-serif" font-size="22" font-weight="500" letter-spacing=".25">Bots · Plugins · Web experiences · Open source</text>
+    </g>
+
+    <g transform="translate(952 120)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M30 0L0 40L30 80" stroke="#65D8FF" stroke-width="8"/>
+      <path d="M92 0L122 40L92 80" stroke="#FF70B8" stroke-width="8"/>
+      <path d="M72 -9L49 89" stroke="#9C91FF" stroke-width="7"/>
+    </g>
+  </g>
+
+  <rect x=".75" y=".75" width="1198.5" height="318.5" rx="27.25" stroke="#B6C8E7" stroke-opacity=".13" stroke-width="1.5"/>
+</svg>
